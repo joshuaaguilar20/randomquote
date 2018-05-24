@@ -1,0 +1,83 @@
+#container {
+    width: 1000px;
+    margin:50px auto
+}
+#quote {
+    background:none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width:600px;
+    margin:0 auto;
+    height:200px;
+    font-size: 30px;
+    color:white; 
+}
+#box4a{
+    font-style:italic;
+    font-family:'Montserrat', sans-serif;
+    height:20px;
+    margin:0 auto;
+    text-align:center;
+    font-size: 25px;
+    color:white;
+}
+body{
+    height:700px;
+    background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+}
+button{
+    border:none;
+    background:white;
+    text-transform: uppercase;
+    font-weight:700;
+    color:#43cea2;
+    letter-spacing:1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    outline-style: ridge
+    text-align:center;
+    height:30px;
+    float:right;
+}
+#space4quote{
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    box-sizing: border-box;
+}
+#h1{
+    text-align: center;
+    height:30px;
+    padding:20px;
+    color:white;
+    box-shadow: 0 0 3px;
+    background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#mybutton{
+    height:30px;
+    text-align: center;
+    margin:10px;
+    
+}
+i{
+    float:left;
+    margin:10px;
+    height:50%;
+    color:white;
+    
+}
+button:hover{
+    color:#185a9d;
+}
+i:hover{
+    color:green;
+}
